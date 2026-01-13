@@ -131,10 +131,11 @@ nav li a:hover {
 @media screen and (min-width: 768px) {
 
     .logo {
-        font-size: 35px;
+        font-size: 2.5vw;
         margin-right: 24%;
-        width: 12%;
-        height: 8vh;
+        width: 12vw;
+        padding: 0;
+        height: 6.5vw;
         border-radius: 80px;
         text-shadow: 5px 5px 8px black;
     }
@@ -144,8 +145,8 @@ nav li a:hover {
     }
 
     nav li {
+        font-size: 2vw;
         width: 25%;
-        font-size: 30px;
     }
 
     nav li a {
@@ -158,6 +159,7 @@ nav li a:hover {
     .logo {
         font-size: 12px;
         margin-right: 74%;
+        padding: 0;
         width: 20%;
         height: 4.5vh;
         border-radius: 67px;
@@ -314,10 +316,6 @@ nav li a:hover {
         padding: 15px 30px;
         margin-left: auto;
         margin-right: auto;
-    }
-
-    .logo {
-        padding: 12px 30px
     }
 
     .nav_list {
@@ -561,6 +559,7 @@ section .wapper {
 
 @media screen and (min-width: 768px) {
     #works ul li {
+        font-size: 1.5vw;
         margin-bottom: 15px;
     }
 
@@ -651,6 +650,10 @@ section .wapper {
     #contact p a {
         padding: 10px 20px;
     }
+
+    #contact p {
+        font-size: 1.5vw;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -677,14 +680,13 @@ footer {
 
 @media screen and (min-width: 768px) {
     footer {
-    margin: 5% 0 6%;
-}
+        margin: 5% 0 6%;
+    }
 }
 
 @media screen and (max-width: 767px) {
     footer {
         font-size: 10px;
-    margin: 5% 0 10%;
-}
-
+        margin: 5% 0 10%;
+    }
 }
