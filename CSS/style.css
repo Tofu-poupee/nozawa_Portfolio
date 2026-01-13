@@ -159,7 +159,7 @@ nav li a:hover {
         font-size: 12px;
         margin-right: 74%;
         width: 20%;
-        height: 5vh;
+        height: 4.5vh;
         border-radius: 67px;
         text-shadow: 5px 5px 8px black;
     }
@@ -686,4 +686,5 @@ footer {
         font-size: 10px;
     margin: 5% 0 10%;
 }
+
 }
