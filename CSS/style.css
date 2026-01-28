@@ -621,6 +621,107 @@ section .wapper {
     #works li .year {
         width: 12%;
     }
+
+    #works p {
+        font-size: 10px;
+    }
+}
+
+/*===============================================
+ *	personal
+===============================================*/
+#personal ul li dl {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+#personal li dt,
+#personal li dd {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#personal li dt:nth-child(1) {
+    text-align: center;
+}
+
+#personal li dt a {
+    color: #fff;
+    background-color: #4a6bff;
+    text-decoration: none;
+}
+
+#personal li dt a:hover {
+    color: #4a6bff;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+    #personal ul li {
+        font-size: 1.5vw;
+        margin-bottom: 15px;
+    }
+
+    #personal li dt:nth-child(1) {
+        width: 8%;
+        margin-right: 2%;
+    }
+
+    #personal li dt a {
+        text-shadow: 2px 2px 4px #212f6b;
+        padding: 0 20px;
+    }
+
+    #personal li dt a:hover {
+        border: 3px solid #4a6bff;
+    }
+
+    #personal li dt:nth-child(2) {
+        width: 33%;
+    }
+
+    #personal li dd {
+        width: 30%;
+    }
+
+    #personal li .year {
+        width: 10%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #personal ul li {
+        margin-bottom: 5px;
+        font-size: 10px;
+    }
+
+    #personal li dt:nth-child(1) {
+        width: 14%;
+        margin-right: 2%;
+    }
+
+    #personal li dt a {
+        text-shadow: 2px 2px 4px #212f6b;
+        padding: 0 10px 2px;
+    }
+
+    #personal li dt a:hover {
+        border: 3px solid #4a6bff;
+    }
+
+    #personal li dt:nth-child(2) {
+        width: 23%;
+    }
+
+    #personal li dd {
+        width: 20%;
+    }
+
+    #personal li .year {
+        width: 12%;
+    }
 }
 
 /*===============================================
