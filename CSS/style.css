@@ -346,9 +346,6 @@ nav li a:hover {
 /*===============================================
  *	main
 ===============================================*/
-main{
-    margin-top: 20%;
-}
 
 main h1 {
     width: fit-content;
@@ -366,6 +363,7 @@ section .wapper {
 @media screen and (min-width: 768px) {
     main {
         padding: 0 15%;
+        margin-top: 10%;
     }
 
     main h1 {
@@ -385,6 +383,7 @@ section .wapper {
 @media screen and (max-width: 767px) {
     main {
         padding: 0 10%;
+        margin-top: 20%;
     }
 
     main h1 {
@@ -801,4 +800,3 @@ footer {
         margin: 5% 0 10%;
     }
 }
-
