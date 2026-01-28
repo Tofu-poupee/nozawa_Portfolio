@@ -363,7 +363,7 @@ section .wapper {
 @media screen and (min-width: 768px) {
     main {
         padding: 0 15%;
-        margin-top: 10%;
+        margin-top: 15%;
     }
 
     main h1 {
@@ -800,3 +800,4 @@ footer {
         margin: 5% 0 10%;
     }
 }
+
