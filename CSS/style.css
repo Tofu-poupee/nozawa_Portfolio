@@ -872,6 +872,28 @@ section .wapper {
     }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    #personal ul li dl {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 8px;
+    }
+
+    #personal li dt,
+    #personal li dd {
+        display: block;
+        width: auto !important;
+    }
+
+    #personal li .year {
+        width: 100% !important;
+        text-align: right;
+    }
+
+}
+
 /*===============================================
  *	Contact
 ===============================================*/
