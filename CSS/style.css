@@ -13,7 +13,7 @@ html {
 
 body {
     color: #112044;
-    font-size: 100%;
+    font-size: clamp(1rem, 1.5vw, 1.125rem);
     height: 100%;
     overflow: hidden;
 }
@@ -537,6 +537,13 @@ section .wapper {
     table-layout: fixed;
 }
 
+#works details summary {
+    cursor: pointer;
+    font-weight: 700;
+    margin-bottom: 12px;
+    margin-left: 1%;
+}
+
 #works li dt,
 #works li dd {
     display: table-cell;
@@ -559,6 +566,28 @@ section .wapper {
     text-decoration: none;
 }
 
+#works .detail-grid {
+    display: flex;
+    flex-direction: column;
+}
+
+/* 技術タグ */
+
+#works .skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#works .skill-tags span {
+    background: #e8f2ff;
+    color: #1e4974;
+}
+
+#works .detail-grid div {
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+
 /* #works li dt a:visited  {
     color: #051457;
     background-color: #4a6bff;
@@ -574,6 +603,11 @@ section .wapper {
     #works li dt:nth-child(1) {
         width: 8%;
         margin-right: 2%;
+    }
+
+    #works li dl:nth-child(2) details {
+        width: 15%;
+        margin-left: 1.5%;
     }
 
     #works li dt a {
@@ -596,6 +630,46 @@ section .wapper {
     #works li .year {
         width: 10%;
     }
+
+    #works .detail-grid {
+        gap: 16px;
+        margin-top: 10px;
+    }
+
+    #works .detail-grid h4 {
+        margin: 0 0 8px;
+        font-size: 1.5vw;
+        font-weight: 700;
+    }
+
+    #works .detail-grid ul {
+        margin: 0;
+        padding-left: 20px;
+    }
+
+    #works .detail-grid ul li {
+        margin-bottom: 4px;
+    }
+
+    /* 技術タグ */
+
+    #works .skill-tags {
+        gap: 8px;
+    }
+
+    #works .skill-tags span {
+        border: 1px solid #cbe4ff;
+        border-radius: 999px;
+        font-size: 1.3vw;
+        font-weight: 600;
+        padding: 0.2vw 0.6vw;
+    }
+
+    #works .detail-grid div {
+        margin-left: 3%;
+        margin-bottom: 1%;
+    }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -607,6 +681,11 @@ section .wapper {
     #works li dt:nth-child(1) {
         width: 14%;
         margin-right: 2%;
+    }
+
+    #works li dl:nth-child(2) details {
+        width: 90%;
+        margin-left: 1.5%;
     }
 
     #works li dt a {
@@ -633,6 +712,67 @@ section .wapper {
     #works p {
         font-size: 10px;
     }
+
+    #works .detail-grid {
+        gap: 16px;
+        margin-top: 10px;
+    }
+
+    #works .detail-grid h4 {
+        margin: 0 0 8px;
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+    #works .detail-grid ul {
+        margin: 0;
+        padding-left: 20px;
+    }
+
+    #works .detail-grid ul li {
+        margin-bottom: 4px;
+    }
+
+    /* 技術タグ */
+
+    #works .skill-tags {
+        gap: 8px;
+    }
+
+    #works .skill-tags span {
+        border: 1px solid #cbe4ff;
+        border-radius: 999px;
+        font-size: 8px;
+        font-weight: 600;
+        padding: 2px 5px;
+    }
+
+    #works .detail-grid div {
+        margin-left: 7%;
+        margin-bottom: 2%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    #works ul li dl {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 8px;
+    }
+
+    #works li dt,
+    #works li dd {
+        display: block;
+        width: auto !important;
+    }
+
+    #works li .year {
+        width: 100% !important;
+        text-align: right;
+    }
+
 }
 
 /*===============================================
